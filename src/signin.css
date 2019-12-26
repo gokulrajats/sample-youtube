@@ -1,0 +1,32 @@
+.login-container{
+    margin:2% 25%;
+    /* border:2px red solid; */
+}
+input[type=text], input[type=email] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid coral;
+    box-sizing: border-box;
+  }
+  .form-container{
+      display: flex;
+      flex-direction: column;
+  }
+  ul{
+      list-style: none;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 100%; */
+  }
+  .invalid{
+      color:red;
+      display: none;
+  }
